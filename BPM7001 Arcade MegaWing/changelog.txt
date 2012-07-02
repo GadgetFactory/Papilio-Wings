@@ -1,0 +1,10 @@
+7/1/2012 Version 2.1
+	-Added Atari style joystick ports back, but with V-Score so they can be snapped off and replaced with other joystick types.
+
+4/3/2012 Version 2.0
+	-Added SD Card
+	-Removed Atari style joystick ports
+	-Added micro joystick
+
+8/9/2011 Version 1.0
+	-First production version.
