@@ -1,2 +1,7 @@
-6/27/2012
+8/21/2012	Version 1.1
+	-Fixed placement of components under audio jacks.
+	-Fixed 3.3V for Midi Out
+	-Made holes for all connectors .04"
+	-Made MIDI footprint support multiple parts.
+6/27/2012	Version 1.0
 Version 1.0 of RetroCade MegaWing.
