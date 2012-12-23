@@ -6,5 +6,8 @@
 	-Removed Atari style joystick ports
 	-Added micro joystick
 
+12/19/2012 Version 1.2
+	-Fix the low pass audio filter
+	
 8/9/2011 Version 1.0
 	-First production version.
