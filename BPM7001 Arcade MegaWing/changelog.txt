@@ -1,3 +1,7 @@
+7/17/2013 Version 2.2
+	-Moved DB9 Joystick connectes apart
+	-Moved audio jack outwards so it lays flat.
+
 7/1/2012 Version 2.1
 	-Added Atari style joystick ports back, but with V-Score so they can be snapped off and replaced with other joystick types.
 
