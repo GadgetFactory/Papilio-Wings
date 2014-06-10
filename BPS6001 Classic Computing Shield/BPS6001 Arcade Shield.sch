@@ -6704,11 +6704,6 @@ Source: www.kingbright.com</description>
 <wire x1="97.79" y1="52.07" x2="92.71" y2="52.07" width="0.127" layer="21"/>
 <wire x1="92.71" y1="52.07" x2="92.71" y2="6.35" width="0.127" layer="21"/>
 <wire x1="92.71" y1="6.35" x2="97.79" y2="6.35" width="0.127" layer="21"/>
-<circle x="96.52" y="2.54" radius="1.905" width="0.127" layer="45"/>
-<circle x="96.52" y="2.54" radius="1.905" width="0.127" layer="21"/>
-<circle x="90.17" y="50.8" radius="1.905" width="0.127" layer="45"/>
-<circle x="90.17" y="50.8" radius="1.905" width="0.127" layer="21"/>
-<circle x="15.24" y="2.54" radius="1.905" width="0.127" layer="21"/>
 <pad name="3.3V" x="35.56" y="2.54" drill="1" diameter="1.4224"/>
 <pad name="5V@0" x="38.1" y="2.54" drill="1" diameter="1.4224"/>
 <pad name="5V@1" x="93.98" y="50.8" drill="1" diameter="1.4224"/>
@@ -6780,9 +6775,6 @@ Source: www.kingbright.com</description>
 <text x="38.608" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">+5V</text>
 <text x="33.528" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">RST</text>
 <text x="36.068" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">+3.3V</text>
-<hole x="90.17" y="50.8" drill="3.2"/>
-<hole x="96.52" y="2.54" drill="3.2"/>
-<hole x="15.24" y="2.54" drill="3.2"/>
 </package>
 </packages>
 <symbols>
