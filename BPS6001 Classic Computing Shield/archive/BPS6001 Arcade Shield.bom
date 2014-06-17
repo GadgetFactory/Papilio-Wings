@@ -1,0 +1,20 @@
+Partlist exported from C:/Users/killian/Dropbox/GadgetFactory/Shared/Wings/BPS6001 Arcade Shield/BPS6001 Arcade Shield.sch at 9/29/2011 4:40:52 PM
+
+Qty Value                          Device                         Parts                                                
+5                                  EVQQ2                          S1, S2, S3, S4, S5                                   
+1                                  F15HDH                         X1                                                   
+4                                  LEDCHIPLED_0603                LED1, LED2, LED3, LED4                               
+2                                  M09HP                          JS1, JS2                                             
+3   1K                             R0603                          R5, R9, R12                                          
+3   2K                             R0603                          R4, R8, R13                                          
+2   3.3K                           R0603                          R16, R19                                             
+3   3.9K                           R0603                          R3, R7, R14                                          
+2   4.7nF                          C-EU050-025X075                C1, C2                                               
+5   47K                            R0603                          R15, R17, R18, R20, R28                              
+2   82.5                           R0603                          R1, R2                                               
+11  390                            R0603                          R21, R22, R23, R24, R25, R26, R27, R29, R30, R31, R32
+3   510                            R0603                          R6, R10, R11                                         
+1   AMEGA_SHIELD_NOANALOGNO_ANALOG AMEGA_SHIELD_NOANALOGNO_ANALOG U1                                                   
+1   AUDIOJACK                      AUDIOJACK                      AUDIO                                                
+1   BUTTERFLY_LOGO                 BUTTERFLY_LOGO                 LOGO1                                                
+2   CON_PS/2                       CON_PS/2                       J1, J2                                               
