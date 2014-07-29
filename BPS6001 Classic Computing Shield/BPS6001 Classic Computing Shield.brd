@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1205,15 +1205,22 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LOGO1" library="GadgetFactory_Pub" package="BUTTERFLY_LOGO" value="BUTTERFLY_LOGO" x="88.519" y="31.75" smashed="yes"/>
-<element name="PS2_B" library="usb1" package="PS/2" value="CON_PS/2" x="109.855" y="6.35" rot="R180"/>
-<element name="PS2_A" library="usb1" package="PS/2" value="CON_PS/2" x="33.02" y="35.56"/>
+<element name="LOGO1" library="GadgetFactory_Pub" package="BUTTERFLY_LOGO" value="BUTTERFLY_LOGO" x="88.519" y="31.75" smashed="yes">
+<attribute name="BOM" value="EXCLUDE" x="88.519" y="31.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="PS2_B" library="usb1" package="PS/2" value="CON_PS/2" x="109.855" y="6.35" rot="R180">
+<attribute name="PARTNO" value="MD-60S" x="109.855" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="PS2_A" library="usb1" package="PS/2" value="CON_PS/2" x="33.02" y="35.56">
+<attribute name="PARTNO" value="MD-60S" x="33.02" y="35.56" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R9" library="GadgetFactory" package="0603" value="47K" x="48.26" y="40.005" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.871" y="41.772" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="49.66" y="39.455" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="49.66" y="40.605" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="46.86" y="39.405" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="46.86" y="40.555" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="48.26" y="40.005" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="GadgetFactory" package="0603" value="47K" x="67.183" y="41.91" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.81" y="44.566" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -1221,6 +1228,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="67.783" y="40.51" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="66.583" y="43.31" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="67.733" y="43.31" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="67.183" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R17" library="GadgetFactory" package="0603" value="47K" x="62.23" y="34.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.349" y="33.39" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -1228,6 +1236,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="63.63" y="34.89" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="60.83" y="33.69" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="60.83" y="34.84" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="62.23" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R18" library="GadgetFactory" package="0603" value="47K" x="77.47" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.11" y="35.33" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
@@ -1235,6 +1244,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="78.07" y="35.43" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="76.87" y="38.23" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="78.02" y="38.23" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="77.47" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R44" library="GadgetFactory" package="0603" value="390" x="103.124" y="11.303" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.854" y="12.065" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1242,6 +1252,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="104.524" y="11.903" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="101.724" y="10.703" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="101.724" y="11.853" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT390R" x="103.124" y="11.303" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R43" library="GadgetFactory" package="0603" value="390" x="103.124" y="13.843" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.854" y="14.605" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1249,6 +1260,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="104.524" y="14.443" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="101.724" y="13.243" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="101.724" y="14.393" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT390R" x="103.124" y="13.843" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R27" library="GadgetFactory" package="0603" value="390" x="103.124" y="16.383" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.854" y="17.145" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1256,6 +1268,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="104.524" y="16.983" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="101.724" y="15.783" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="101.724" y="16.933" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT390R" x="103.124" y="16.383" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R26" library="GadgetFactory" package="0603" value="390" x="103.124" y="18.923" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.854" y="19.685" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1263,34 +1276,43 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="104.524" y="19.523" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="101.724" y="18.323" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="101.724" y="19.473" size="0.05" layer="27" font="vector" ratio="0"/>
+<attribute name="PARTNO" value="RMCF0603JT390R" x="103.124" y="18.923" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED4" library="led" package="CHIPLED_0603" value="" x="106.299" y="11.303" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.775" y="12.192" size="1.016" layer="25"/>
 <attribute name="VALUE" x="105.029" y="9.398" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="LTST-C190GKT" x="106.299" y="11.303" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED3" library="led" package="CHIPLED_0603" value="" x="106.299" y="13.843" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.775" y="14.605" size="1.016" layer="25"/>
 <attribute name="VALUE" x="105.029" y="11.938" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="LTST-C190GKT" x="106.299" y="13.843" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED2" library="led" package="CHIPLED_0603" value="" x="106.299" y="16.383" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.775" y="17.272" size="1.016" layer="25"/>
 <attribute name="VALUE" x="105.029" y="14.478" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="LTST-C190GKT" x="106.299" y="16.383" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="106.299" y="18.923" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.775" y="19.685" size="1.016" layer="25"/>
 <attribute name="VALUE" x="105.029" y="17.018" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="LTST-C190GKT" x="106.299" y="18.923" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S3" library="adafruit" package="EVQ-Q2" value="" x="50.8" y="35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="53.848" y="40.64" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS" x="50.8" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S1" library="adafruit" package="EVQ-Q2" value="" x="60.96" y="41.91" smashed="yes" rot="R180">
 <attribute name="VALUE" x="64.008" y="46.99" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS" x="60.96" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S4" library="adafruit" package="EVQ-Q2" value="" x="60.96" y="29.21" smashed="yes">
 <attribute name="VALUE" x="57.912" y="24.13" size="1.27" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS" x="60.96" y="29.21" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S5" library="adafruit" package="EVQ-Q2" value="" x="71.12" y="35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="74.168" y="40.64" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS" x="71.12" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="GadgetFactory" package="0603" value="47K" x="74.168" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.517" y="43.18" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1298,61 +1320,107 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="73.568" y="43.31" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="74.768" y="40.51" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="73.618" y="40.51" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="74.168" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S2" library="adafruit" package="EVQ-Q2" value="" x="80.264" y="43.434" smashed="yes">
 <attribute name="VALUE" x="77.216" y="38.354" size="1.27" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS" x="80.264" y="43.434" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="Papilio" package="AMEGA_SHIELD_NOANALOG" value="AMEGA_SHIELD_NOANALOGNO_ANALOG" x="0" y="0"/>
-<element name="SD1" library="adafruit" package="MICROSD" value="MICROSD" x="45.72" y="16.51"/>
-<element name="R23" library="GadgetFactory_6.0" package="0603" value="50K" x="50.038" y="20.32" rot="R90"/>
-<element name="R24" library="GadgetFactory_6.0" package="0603" value="50K" x="56.388" y="20.32" smashed="yes" rot="R90">
+<element name="U1" library="Papilio" package="AMEGA_SHIELD_NOANALOG" value="AMEGA_SHIELD_NOANALOGNO_ANALOG" x="0" y="0">
+<attribute name="BOM" value="EXCLUDE" x="0" y="0" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SD1" library="adafruit" package="MICROSD" value="MICROSD" x="45.72" y="16.51">
+<attribute name="PARTNO" value="101-00660-68-6" x="45.72" y="16.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="GadgetFactory_6.0" package="0603" value="47K" x="50.038" y="20.32" rot="R90">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="50.038" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R24" library="GadgetFactory_6.0" package="0603" value="47K" x="56.388" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.553" y="18.231" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="55.638" y="18.62" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="57.188" y="18.62" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="55.588" y="22.02" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="57.138" y="22.02" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="56.388" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R25" library="GadgetFactory_6.0" package="0603" value="50K" x="58.928" y="20.32" smashed="yes" rot="R90">
+<element name="R25" library="GadgetFactory_6.0" package="0603" value="47K" x="58.928" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.093" y="18.231" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="58.178" y="18.62" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="59.728" y="18.62" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="58.128" y="22.02" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="59.678" y="22.02" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="58.928" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="JS1" library="con-subd" package="M09HP" value="" x="11.43" y="37.592" smashed="yes" rot="R270">
+<element name="JS1" library="con-subd" package="M09HP" value="Serial Port" x="11.43" y="37.592" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.826" y="44.958" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-9.017" y="45.212" size="1.778" layer="27" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="10090097-P094VLF" x="11.43" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R8" library="GadgetFactory" package="0603" value="47K" x="48.26" y="47.498" rot="R270"/>
-<element name="R6" library="GadgetFactory" package="0603" value="47K" x="41.656" y="47.498" rot="R270"/>
-<element name="R5" library="GadgetFactory" package="0603" value="47K" x="39.116" y="47.498" rot="R270"/>
-<element name="R3" library="GadgetFactory" package="0603" value="47K" x="34.036" y="47.498" rot="R270"/>
-<element name="R1" library="GadgetFactory" package="0603" value="47K" x="28.956" y="47.498" rot="R270"/>
-<element name="R2" library="GadgetFactory" package="0603" value="47K" x="31.496" y="47.498" rot="R270"/>
-<element name="R4" library="GadgetFactory" package="0603" value="47K" x="36.576" y="47.498" rot="R270"/>
-<element name="R7" library="GadgetFactory" package="0603" value="47K" x="45.72" y="47.498" rot="R270"/>
-<element name="JS2" library="con-subd" package="M09HP" value="" x="107.95" y="37.211" smashed="yes" rot="R90">
+<element name="R8" library="GadgetFactory" package="0603" value="47K" x="48.26" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="48.26" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R6" library="GadgetFactory" package="0603" value="47K" x="41.656" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="41.656" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R5" library="GadgetFactory" package="0603" value="47K" x="39.116" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="39.116" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R3" library="GadgetFactory" package="0603" value="47K" x="34.036" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="34.036" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R1" library="GadgetFactory" package="0603" value="47K" x="28.956" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="28.956" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R2" library="GadgetFactory" package="0603" value="47K" x="31.496" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="31.496" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R4" library="GadgetFactory" package="0603" value="47K" x="36.576" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="36.576" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R7" library="GadgetFactory" package="0603" value="47K" x="45.72" y="47.498" rot="R270">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="45.72" y="47.498" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JS2" library="con-subd" package="M09HP" value="Serial Port" x="107.95" y="37.211" smashed="yes" rot="R90">
 <attribute name="NAME" x="114.808" y="30.607" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="128.397" y="29.591" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="PARTNO" value="10090097-P094VLF" x="107.95" y="37.211" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="GadgetFactory" package="0603" value="47K" x="101.981" y="48.26"/>
-<element name="R13" library="GadgetFactory" package="0603" value="47K" x="101.981" y="45.72"/>
-<element name="R14" library="GadgetFactory" package="0603" value="47K" x="101.981" y="43.18"/>
-<element name="R15" library="GadgetFactory" package="0603" value="47K" x="101.981" y="40.64"/>
-<element name="R16" library="GadgetFactory" package="0603" value="47K" x="101.981" y="38.1"/>
-<element name="R19" library="GadgetFactory" package="0603" value="47K" x="101.981" y="35.56"/>
-<element name="R20" library="GadgetFactory" package="0603" value="47K" x="101.981" y="33.02"/>
-<element name="R21" library="GadgetFactory" package="0603" value="47K" x="101.981" y="30.48"/>
+<element name="R12" library="GadgetFactory" package="0603" value="47K" x="101.981" y="48.26">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="48.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="GadgetFactory" package="0603" value="47K" x="101.981" y="45.72">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="45.72" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="GadgetFactory" package="0603" value="47K" x="101.981" y="43.18">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R15" library="GadgetFactory" package="0603" value="47K" x="101.981" y="40.64">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="40.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="GadgetFactory" package="0603" value="47K" x="101.981" y="38.1">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="38.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R19" library="GadgetFactory" package="0603" value="47K" x="101.981" y="35.56">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="35.56" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="GadgetFactory" package="0603" value="47K" x="101.981" y="33.02">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="33.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R21" library="GadgetFactory" package="0603" value="47K" x="101.981" y="30.48">
+<attribute name="PARTNO" value="RMCF0603JT47K0" x="101.981" y="30.48" size="1.778" layer="27" display="off"/>
+</element>
 <element name="AJ1" library="OPL Eagle Library" package="6P-SMD-3.5" value="AUDIO-CONNECTOR-6P-SMD-3440030P1" x="4.572" y="16.256" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.382" y="16.891" size="1.27" layer="25" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="8.382" y="16.256" size="0.635" layer="27" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="3440030P1" x="4.572" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="GadgetFactory" package="0603" value="4.7nF" x="16.002" y="19.05" smashed="yes">
+<element name="C1" library="GadgetFactory" package="0603" value="4700pF" x="16.002" y="19.05" smashed="yes">
 <attribute name="NAME" x="17.804" y="18.68" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="14.602" y="19.6" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="14.602" y="18.45" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="17.402" y="19.65" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="17.402" y="18.5" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="C0603C472J5RACTU" x="16.002" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R22" library="GadgetFactory" package="0603" value="3.3K" x="16.002" y="21.082" smashed="yes">
 <attribute name="NAME" x="15.01" y="21.982" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1360,13 +1428,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.602" y="20.482" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="17.402" y="21.682" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="17.402" y="20.532" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT3K30" x="16.002" y="21.082" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="GadgetFactory" package="0603" value="4.7nF" x="16.002" y="17.018" smashed="yes">
+<element name="C2" library="GadgetFactory" package="0603" value="4700pF" x="16.002" y="17.018" smashed="yes">
 <attribute name="NAME" x="18.82" y="16.648" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="14.602" y="17.568" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="14.602" y="16.418" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="17.402" y="17.618" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="17.402" y="16.468" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="C0603C472J5RACTU" x="16.002" y="17.018" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R28" library="GadgetFactory" package="0603" value="3.3K" x="16.002" y="14.732" smashed="yes">
 <attribute name="NAME" x="15.01" y="12.965" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1374,14 +1444,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.602" y="14.132" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="17.402" y="15.332" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="17.402" y="14.182" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT3K30" x="16.002" y="14.732" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SP1" library="con-subd" package="M09HP" value="" x="15.875" y="7.62" smashed="yes">
+<element name="SP1" library="con-subd" package="M09HP" value="Serial Port" x="15.875" y="7.62" smashed="yes">
 <attribute name="MF" value="" x="15.875" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.875" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.875" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="15.875" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.511" y="1.27" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="8.255" y="-12.827" size="1.778" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="10090097-P094VLF" x="15.875" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="maxim" package="SO16" value="MAX3232CSE" x="29.21" y="19.812" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="90C2890" x="29.21" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1390,6 +1462,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9725490" x="29.21" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="33.274" y="20.447" size="1.27" layer="27" ratio="10" rot="R180"/>
 <attribute name="NAME" x="22.479" y="21.336" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="MAX3232ECDR" x="29.21" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C6" library="GadgetFactory_6.0" package="0805" value=".1uF" x="36.83" y="19.812" smashed="yes">
 <attribute name="NAME" x="36.173" y="21.012" size="0.8128" layer="25" font="vector" ratio="16"/>
@@ -1397,24 +1470,33 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="35.13" y="19.012" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="38.53" y="20.612" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="38.53" y="19.062" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="36.83" y="19.812" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="GadgetFactory_6.0" package="0805" value=".1uF" x="21.59" y="26.162" rot="R180"/>
-<element name="C5" library="GadgetFactory_6.0" package="0805" value=".1uF" x="33.02" y="26.162"/>
-<element name="C4" library="GadgetFactory_6.0" package="0805" value=".1uF" x="28.702" y="26.162"/>
+<element name="C3" library="GadgetFactory_6.0" package="0805" value=".1uF" x="21.59" y="26.162" rot="R180">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="21.59" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C5" library="GadgetFactory_6.0" package="0805" value=".1uF" x="33.02" y="26.162">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="33.02" y="26.162" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C4" library="GadgetFactory_6.0" package="0805" value=".1uF" x="28.702" y="26.162">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="28.702" y="26.162" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C7" library="GadgetFactory_6.0" package="0805" value=".1uF" x="36.83" y="17.272" smashed="yes">
 <attribute name="NAME" x="36.173" y="15.17" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="35.13" y="18.022" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="35.13" y="16.472" size="0.05" layer="27" font="vector" ratio="0"/>
 <attribute name="VALUE" x="38.53" y="18.072" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
 <attribute name="VALUE" x="38.53" y="16.522" size="0.05" layer="27" font="vector" ratio="0" rot="R180"/>
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="36.83" y="17.272" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X1" library="GadgetFactory_6.0" package="HDF15H" value="" x="76.2" y="7.62" smashed="yes">
+<element name="X1" library="GadgetFactory_6.0" package="HDF15H" value="VGA" x="76.2" y="7.62" smashed="yes">
 <attribute name="NAME" x="85.227" y="8.085" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="76.2" y="12.7" size="1.778" layer="27" ratio="10"/>
 <attribute name="MF" value="" x="76.2" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="76.2" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="76.2" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="76.2" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="1-1734530-1" x="76.2" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R42" library="GadgetFactory" package="0603" value="3.9K" x="84.836" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.455" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1422,6 +1504,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="84.236" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="85.436" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="84.286" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT3K90" x="84.836" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R35" library="GadgetFactory" package="0603" value="3.9K" x="72.644" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.263" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1429,6 +1512,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="72.044" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="73.244" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="72.094" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT3K90" x="72.644" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R31" library="GadgetFactory" package="0603" value="3.9K" x="65.913" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.659" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1436,6 +1520,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.313" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="66.513" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="65.363" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT3K90" x="65.913" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R29" library="GadgetFactory" package="0603" value="82.5" x="61.468" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.0362" y="18.7706" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1443,6 +1528,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="60.868" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="62.068" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="60.918" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603FT82R5" x="61.468" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R30" library="GadgetFactory" package="0603" value="82.5" x="63.5" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.119" y="18.796" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1450,6 +1536,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="62.9" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="64.1" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="62.95" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603FT82R5" x="63.5" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R41" library="GadgetFactory" package="0603" value="2K" x="83.058" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.677" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1457,6 +1544,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="82.458" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="83.658" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="82.508" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT2K00" x="83.058" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R36" library="GadgetFactory" package="0603" value="2K" x="74.295" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.041" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1464,6 +1552,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="73.695" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="74.895" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="73.745" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT2K00" x="74.295" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="GadgetFactory" package="0603" value="2K" x="67.564" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="67.183" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1471,6 +1560,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="66.964" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="68.164" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="67.014" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT2K00" x="67.564" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R40" library="GadgetFactory" package="0603" value="1K" x="81.28" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.899" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1478,6 +1568,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="80.68" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="81.88" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="80.73" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="81.28" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R39" library="GadgetFactory" package="0603" value="510" x="79.502" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="79.121" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1485,6 +1576,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="78.902" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="80.102" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="78.952" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT510R" x="79.502" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R37" library="GadgetFactory" package="0603" value="1K" x="75.946" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.565" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1492,6 +1584,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="75.346" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="76.546" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="75.396" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="75.946" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R38" library="GadgetFactory" package="0603" value="510" x="77.597" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.216" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1499,6 +1592,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="76.997" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="78.197" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="77.047" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT510R" x="77.597" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R33" library="GadgetFactory" package="0603" value="1K" x="69.215" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.961" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1506,6 +1600,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="68.615" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="69.815" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="68.665" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="69.215" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R34" library="GadgetFactory" package="0603" value="510" x="70.866" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.739" y="18.669" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -1513,25 +1608,42 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70.266" y="16.132" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="71.466" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="70.316" y="13.332" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT510R" x="70.866" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="PWR_2" library="Papilio" package="POWER_NO_TEXT" value="POWER_ONLYNOTEXT" x="99.06" y="13.97" rot="R180"/>
-<element name="PWR_1" library="Papilio" package="POWER_NO_TEXT" value="POWER_ONLYNOTEXT" x="99.06" y="34.29" rot="R180"/>
+<element name="PWR_2" library="Papilio" package="POWER_NO_TEXT" value="POWER_ONLYNOTEXT" x="99.06" y="13.97" rot="R180">
+<attribute name="BOM" value="EXCLUDE" x="99.06" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="PWR_1" library="Papilio" package="POWER_NO_TEXT" value="POWER_ONLYNOTEXT" x="99.06" y="34.29" rot="R180">
+<attribute name="BOM" value="EXCLUDE" x="99.06" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="AJ2" library="OPL Eagle Library" package="6P-SMD-3.5" value="AUDIO-CONNECTOR-6P-SMD-3440030P1" x="115.443" y="15.875" smashed="yes">
 <attribute name="NAME" x="111.76" y="16.51" size="1.27" layer="25" ratio="12"/>
 <attribute name="VALUE" x="111.633" y="15.875" size="0.635" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="3440030P1" x="115.443" y="15.875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="GadgetFactory" package="0603" value="4.7nF" x="102.997" y="21.59"/>
-<element name="R45" library="GadgetFactory" package="0603" value="3.3K" x="99.695" y="20.955" rot="R180"/>
-<element name="C9" library="GadgetFactory" package="0603" value="4.7nF" x="102.997" y="24.13"/>
-<element name="R46" library="GadgetFactory" package="0603" value="3.3K" x="99.695" y="23.495" rot="R180"/>
+<element name="C8" library="GadgetFactory" package="0603" value="4700pF" x="102.997" y="21.59">
+<attribute name="PARTNO" value="C0603C472J5RACTU" x="102.997" y="21.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R45" library="GadgetFactory" package="0603" value="3.3K" x="99.695" y="20.955" rot="R180">
+<attribute name="PARTNO" value="RMCF0603JT3K30" x="99.695" y="20.955" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C9" library="GadgetFactory" package="0603" value="4700pF" x="102.997" y="24.13">
+<attribute name="PARTNO" value="C0603C472J5RACTU" x="102.997" y="24.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R46" library="GadgetFactory" package="0603" value="3.3K" x="99.695" y="23.495" rot="R180">
+<attribute name="PARTNO" value="RMCF0603JT3K30" x="99.695" y="23.495" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R47" library="GadgetFactory_6.0" package="0603" value="390" x="98.933" y="6.223" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.166" y="6.199" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="99.483" y="7.623" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="98.333" y="7.623" size="0.05" layer="27" font="vector" ratio="0" rot="R270"/>
 <attribute name="VALUE" x="99.533" y="4.823" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
 <attribute name="VALUE" x="98.383" y="4.823" size="0.05" layer="27" font="vector" ratio="0" rot="R90"/>
+<attribute name="PARTNO" value="RMCF0603JT390R" x="98.933" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R48" library="GadgetFactory_6.0" package="0603" value="390" x="114.427" y="11.303"/>
+<element name="R48" library="GadgetFactory_6.0" package="0603" value="390" x="114.427" y="11.303">
+<attribute name="PARTNO" value="RMCF0603JT390R" x="114.427" y="11.303" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$1" library="GadgetFactory_Pub" package="STAND-OFF-TIGHT" value="" x="89.916" y="52.07"/>
 <element name="U$2" library="GadgetFactory_Pub" package="STAND-OFF-TIGHT" value="" x="19.05" y="53.34"/>
 <element name="U$3" library="GadgetFactory_Pub" package="STAND-OFF-TIGHT" value="" x="40.64" y="11.43"/>
@@ -1539,8 +1651,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.463" y="34.122" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NAME" x="21.818" y="29.426" size="0.8128" layer="33" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="22.098" y="29.591" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="ACC39145O" x="20.193" y="30.226" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CFG1" library="jumper" package="JP5Q" value="" x="49.149" y="26.416"/>
+<element name="CFG1" library="jumper" package="JP5Q" value="" x="49.149" y="26.416">
+<attribute name="PARTNO" value="M20-9720545" x="49.149" y="26.416" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GREEN1">
