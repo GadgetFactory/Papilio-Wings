@@ -6867,8 +6867,8 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="5V0_PWR10" library="GadgetFactory" deviceset="5V0" device=""/>
 <part name="GND18" library="GadgetFactory" deviceset="GND" device=""/>
 <part name="GND19" library="GadgetFactory" deviceset="GND" device=""/>
-<part name="U1" library="Papilio" deviceset="AMEGA_SHIELD_NOANALOG" device="NO_ANALOG">
-<attribute name="BOM" value="EXCLUDE"/>
+<part name="H1" library="Papilio" deviceset="AMEGA_SHIELD_NOANALOG" device="NO_ANALOG" value="Arduino Mega Header">
+<attribute name="PARTNO" value="Arduino_Mega_Header"/>
 </part>
 <part name="GND14" library="GadgetFactory" deviceset="GND" device=""/>
 <part name="5V0_PWR1" library="GadgetFactory" deviceset="5V0" device=""/>
@@ -7187,8 +7187,8 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <instance part="5V0_PWR10" gate="A" x="91.44" y="86.36" rot="R90"/>
 <instance part="GND18" gate="A" x="33.02" y="88.9" rot="MR90"/>
 <instance part="GND19" gate="A" x="91.44" y="88.9" rot="MR90"/>
-<instance part="U1" gate="G$1" x="154.94" y="104.14">
-<attribute name="BOM" x="154.94" y="104.14" size="1.778" layer="96" display="off"/>
+<instance part="H1" gate="G$1" x="154.94" y="104.14">
+<attribute name="PARTNO" x="154.94" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="A" x="182.88" y="93.98" rot="MR0"/>
 <instance part="5V0_PWR1" gate="A" x="162.56" y="99.06" rot="R180"/>
@@ -7233,7 +7233,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="198.12" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
 <label x="200.66" y="124.46" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D38"/>
+<pinref part="H1" gate="G$1" pin="D38"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7262,7 +7262,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="GND19" gate="A" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@3"/>
+<pinref part="H1" gate="G$1" pin="GND@3"/>
 <wire x1="177.8" y1="101.6" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="101.6" x2="185.42" y2="101.6" width="0.2032" layer="91"/>
 <wire x1="185.42" y1="101.6" x2="187.96" y2="101.6" width="0.2032" layer="91"/>
@@ -7270,9 +7270,9 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <junction x="182.88" y="101.6"/>
 <junction x="185.42" y="101.6"/>
 <junction x="187.96" y="101.6"/>
-<pinref part="U1" gate="G$1" pin="GND@2"/>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
-<pinref part="U1" gate="G$1" pin="GND@0"/>
+<pinref part="H1" gate="G$1" pin="GND@2"/>
+<pinref part="H1" gate="G$1" pin="GND@1"/>
+<pinref part="H1" gate="G$1" pin="GND@0"/>
 <pinref part="GND14" gate="A" pin="GND"/>
 <wire x1="177.8" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -7286,77 +7286,77 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="198.12" y1="132.08" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
 <label x="200.66" y="132.08" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D32"/>
+<pinref part="H1" gate="G$1" pin="D32"/>
 </segment>
 </net>
 <net name="GREEN2" class="0">
 <segment>
 <wire x1="198.12" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 <label x="200.66" y="121.92" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D40"/>
+<pinref part="H1" gate="G$1" pin="D40"/>
 </segment>
 </net>
 <net name="RED2" class="0">
 <segment>
 <wire x1="198.12" y1="109.22" x2="228.6" y2="109.22" width="0.1524" layer="91"/>
 <label x="200.66" y="109.22" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D50"/>
+<pinref part="H1" gate="G$1" pin="D50"/>
 </segment>
 </net>
 <net name="RED3" class="0">
 <segment>
 <wire x1="198.12" y1="111.76" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
 <label x="200.66" y="111.76" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D48"/>
+<pinref part="H1" gate="G$1" pin="D48"/>
 </segment>
 </net>
 <net name="RED4" class="0">
 <segment>
 <wire x1="198.12" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
 <label x="200.66" y="114.3" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D46"/>
+<pinref part="H1" gate="G$1" pin="D46"/>
 </segment>
 </net>
 <net name="GREEN3" class="0">
 <segment>
 <wire x1="198.12" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
 <label x="200.66" y="119.38" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D42"/>
+<pinref part="H1" gate="G$1" pin="D42"/>
 </segment>
 </net>
 <net name="GREEN4" class="0">
 <segment>
 <wire x1="198.12" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
 <label x="200.66" y="116.84" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D44"/>
+<pinref part="H1" gate="G$1" pin="D44"/>
 </segment>
 </net>
 <net name="BLUE3" class="0">
 <segment>
 <wire x1="198.12" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
 <label x="200.66" y="129.54" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D34"/>
+<pinref part="H1" gate="G$1" pin="D34"/>
 </segment>
 </net>
 <net name="BLUE4" class="0">
 <segment>
 <wire x1="198.12" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
 <label x="200.66" y="127" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D36"/>
+<pinref part="H1" gate="G$1" pin="D36"/>
 </segment>
 </net>
 <net name="AUDIO1-RIGHT" class="0">
 <segment>
 <wire x1="198.12" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
 <label x="200.66" y="134.62" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D30"/>
+<pinref part="H1" gate="G$1" pin="D30"/>
 </segment>
 </net>
 <net name="AUDIO1-LEFT" class="0">
 <segment>
 <wire x1="198.12" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 <label x="200.66" y="137.16" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D28"/>
+<pinref part="H1" gate="G$1" pin="D28"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7385,7 +7385,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 </net>
 <net name="PS2DAT2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D41"/>
+<pinref part="H1" gate="G$1" pin="D41"/>
 <wire x1="248.92" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="251.46" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -7397,7 +7397,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 </net>
 <net name="PS2CLK2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D39"/>
+<pinref part="H1" gate="G$1" pin="D39"/>
 <wire x1="248.92" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
 <label x="251.46" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -7417,7 +7417,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="185.42" y1="185.42" x2="185.42" y2="157.48" width="0.1524" layer="91"/>
 <label x="185.42" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D4"/>
+<pinref part="H1" gate="G$1" pin="D4"/>
 </segment>
 </net>
 <net name="PS2CLK1" class="0">
@@ -7430,14 +7430,14 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="182.88" y1="185.42" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <label x="182.88" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D5"/>
+<pinref part="H1" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="RED1" class="0">
 <segment>
 <wire x1="198.12" y1="106.68" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
 <label x="200.66" y="106.68" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D52"/>
+<pinref part="H1" gate="G$1" pin="D52"/>
 </segment>
 </net>
 <net name="SW_LEFT" class="0">
@@ -7454,7 +7454,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="210.82" y1="185.42" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
 <label x="210.82" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D17"/>
+<pinref part="H1" gate="G$1" pin="D17"/>
 </segment>
 </net>
 <net name="SW_UP" class="0">
@@ -7472,7 +7472,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="213.36" y1="185.42" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="213.36" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D18"/>
+<pinref part="H1" gate="G$1" pin="*D18"/>
 </segment>
 </net>
 <net name="SW_DOWN" class="0">
@@ -7492,7 +7492,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="218.44" y1="185.42" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
 <label x="218.44" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D20"/>
+<pinref part="H1" gate="G$1" pin="*D20"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7511,7 +7511,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="215.9" y1="185.42" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
 <label x="215.9" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D19"/>
+<pinref part="H1" gate="G$1" pin="*D19"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -7520,7 +7520,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="R44" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D53"/>
+<pinref part="H1" gate="G$1" pin="D53"/>
 <wire x1="248.92" y1="106.68" x2="261.62" y2="106.68" width="0.1524" layer="91"/>
 <label x="251.46" y="106.68" size="1.778" layer="95"/>
 </segment>
@@ -7531,7 +7531,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="R43" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D51"/>
+<pinref part="H1" gate="G$1" pin="D51"/>
 <wire x1="248.92" y1="109.22" x2="261.62" y2="109.22" width="0.1524" layer="91"/>
 <label x="251.46" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -7542,7 +7542,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="R27" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D49"/>
+<pinref part="H1" gate="G$1" pin="D49"/>
 <wire x1="248.92" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
 <label x="251.46" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -7553,7 +7553,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="R26" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D47"/>
+<pinref part="H1" gate="G$1" pin="D47"/>
 <wire x1="248.92" y1="114.3" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="251.46" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -7580,7 +7580,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="3V3_PWR5" gate="A" pin="3V3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="3.3V"/>
+<pinref part="H1" gate="G$1" pin="3.3V"/>
 <pinref part="3V3_PWR6" gate="A" pin="3V3"/>
 </segment>
 <segment>
@@ -7602,21 +7602,21 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="162.56" y1="185.42" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <label x="162.56" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D12"/>
+<pinref part="H1" gate="G$1" pin="D12"/>
 </segment>
 </net>
 <net name="JS1_2" class="0">
 <segment>
 <wire x1="165.1" y1="185.42" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <label x="165.1" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D11"/>
+<pinref part="H1" gate="G$1" pin="D11"/>
 </segment>
 </net>
 <net name="JS1_1" class="0">
 <segment>
 <wire x1="160.02" y1="185.42" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="160.02" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D13"/>
+<pinref part="H1" gate="G$1" pin="D13"/>
 </segment>
 </net>
 <net name="5V0" class="0">
@@ -7625,7 +7625,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="5V0_PWR10" gate="A" pin="5V0"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="5V@0"/>
+<pinref part="H1" gate="G$1" pin="5V@0"/>
 <pinref part="5V0_PWR1" gate="A" pin="5V0"/>
 </segment>
 <segment>
@@ -7638,19 +7638,19 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="187.96" y1="185.42" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="187.96" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D3"/>
+<pinref part="H1" gate="G$1" pin="*D3"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RX"/>
+<pinref part="H1" gate="G$1" pin="RX"/>
 <wire x1="198.12" y1="185.42" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 <label x="198.12" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="TX"/>
+<pinref part="H1" gate="G$1" pin="TX"/>
 <wire x1="195.58" y1="185.42" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
 <label x="195.58" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -7659,49 +7659,49 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="198.12" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <label x="200.66" y="139.7" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D26"/>
+<pinref part="H1" gate="G$1" pin="D26"/>
 </segment>
 </net>
 <net name="VERTICAL_SYNC" class="0">
 <segment>
 <wire x1="198.12" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 <label x="200.66" y="142.24" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D24"/>
+<pinref part="H1" gate="G$1" pin="D24"/>
 </segment>
 </net>
 <net name="HORIZONTAL_SYNC" class="0">
 <segment>
 <wire x1="198.12" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
 <label x="200.66" y="144.78" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="D22"/>
+<pinref part="H1" gate="G$1" pin="D22"/>
 </segment>
 </net>
 <net name="JS1_7" class="0">
 <segment>
 <wire x1="167.64" y1="185.42" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
 <label x="167.64" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D10"/>
+<pinref part="H1" gate="G$1" pin="D10"/>
 </segment>
 </net>
 <net name="JS1_3" class="0">
 <segment>
 <wire x1="170.18" y1="185.42" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 <label x="170.18" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D9"/>
+<pinref part="H1" gate="G$1" pin="D9"/>
 </segment>
 </net>
 <net name="JS1_4" class="0">
 <segment>
 <wire x1="172.72" y1="185.42" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
 <label x="172.72" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D8"/>
+<pinref part="H1" gate="G$1" pin="D8"/>
 </segment>
 </net>
 <net name="JS1_9" class="0">
 <segment>
 <wire x1="177.8" y1="185.42" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="177.8" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D7"/>
+<pinref part="H1" gate="G$1" pin="D7"/>
 </segment>
 <segment>
 <pinref part="GROVE1" gate="G$1" pin="1"/>
@@ -7713,7 +7713,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="180.34" y1="185.42" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
 <label x="180.34" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D6"/>
+<pinref part="H1" gate="G$1" pin="D6"/>
 </segment>
 <segment>
 <pinref part="GROVE1" gate="G$1" pin="2"/>
@@ -7725,28 +7725,28 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="190.5" y1="185.42" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
 <label x="190.5" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D2"/>
+<pinref part="H1" gate="G$1" pin="*D2"/>
 </segment>
 </net>
 <net name="SD_MOSI" class="0">
 <segment>
 <wire x1="203.2" y1="185.42" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
 <label x="203.2" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D14"/>
+<pinref part="H1" gate="G$1" pin="D14"/>
 </segment>
 </net>
 <net name="SD_SCK" class="0">
 <segment>
 <wire x1="205.74" y1="185.42" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="205.74" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D15"/>
+<pinref part="H1" gate="G$1" pin="D15"/>
 </segment>
 </net>
 <net name="SD_!CS" class="0">
 <segment>
 <wire x1="208.28" y1="185.42" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
 <label x="208.28" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="D16"/>
+<pinref part="H1" gate="G$1" pin="D16"/>
 </segment>
 </net>
 <net name="JOY_3V3" class="0">
@@ -7765,7 +7765,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="PWR_1" gate="G$1" pin="GND@P1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@4"/>
+<pinref part="H1" gate="G$1" pin="GND@4"/>
 <wire x1="180.34" y1="101.6" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7803,56 +7803,56 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 </net>
 <net name="JS2_5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D23"/>
+<pinref part="H1" gate="G$1" pin="D23"/>
 <wire x1="248.92" y1="144.78" x2="261.62" y2="144.78" width="0.1524" layer="91"/>
 <label x="251.46" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D25"/>
+<pinref part="H1" gate="G$1" pin="D25"/>
 <wire x1="248.92" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
 <label x="251.46" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D27"/>
+<pinref part="H1" gate="G$1" pin="D27"/>
 <wire x1="248.92" y1="139.7" x2="261.62" y2="139.7" width="0.1524" layer="91"/>
 <label x="251.46" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D29"/>
+<pinref part="H1" gate="G$1" pin="D29"/>
 <wire x1="248.92" y1="137.16" x2="261.62" y2="137.16" width="0.1524" layer="91"/>
 <label x="251.46" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D31"/>
+<pinref part="H1" gate="G$1" pin="D31"/>
 <wire x1="248.92" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
 <label x="251.46" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D33"/>
+<pinref part="H1" gate="G$1" pin="D33"/>
 <wire x1="248.92" y1="132.08" x2="261.62" y2="132.08" width="0.1524" layer="91"/>
 <label x="251.46" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D35"/>
+<pinref part="H1" gate="G$1" pin="D35"/>
 <wire x1="248.92" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
 <label x="251.46" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JS2_9" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D37"/>
+<pinref part="H1" gate="G$1" pin="D37"/>
 <wire x1="248.92" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
 <label x="251.46" y="127" size="1.778" layer="95"/>
 </segment>
@@ -7872,7 +7872,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="220.98" y1="185.42" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <label x="220.98" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="*D21"/>
+<pinref part="H1" gate="G$1" pin="*D21"/>
 </segment>
 <segment>
 <wire x1="82.55" y1="119.38" x2="80.01" y2="119.38" width="0.1524" layer="91"/>
@@ -7890,14 +7890,14 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3222-MAX3241.pdf</description>
 </net>
 <net name="AUDIO2-RIGHT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D43"/>
+<pinref part="H1" gate="G$1" pin="D43"/>
 <wire x1="248.92" y1="119.38" x2="261.62" y2="119.38" width="0.1524" layer="91"/>
 <label x="251.46" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUDIO2-LEFT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="D45"/>
+<pinref part="H1" gate="G$1" pin="D45"/>
 <wire x1="248.92" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
 <label x="251.46" y="116.84" size="1.778" layer="95"/>
 </segment>
