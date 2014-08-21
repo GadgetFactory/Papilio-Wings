@@ -1,4 +1,15 @@
+*.zip
+*.rar
+*.html
+*.pdf
+*.jpg
+*.png
+*.scr
+
+centroid
 gerbers
+archive
+eagleup
 
 #################
 ## Eclipse
