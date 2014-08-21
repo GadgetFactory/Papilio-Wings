@@ -1,0 +1,5 @@
+8/5/2013 - Version 1.3
+	-Changed the order of the ADC headers to be GND, 5V, SIG instead of GND, SIG, 5V. This new scheme is compatible with Seeed Grove parts.
+
+8/2/2013
+	-Enlarged the holes on the 5V row for the ADC header.
