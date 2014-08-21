@@ -10,8 +10,8 @@ Partial DigiKey BOM Link (Seeed and Generic Parts not included):
 
 
 Test Plan Home Page:
-	http://www.gadgetfactory.net/opmanuals/index.php?n=Main.ArcadeMegaWing
+	In Progress
 
 CHANGELOG
-10/12/2011 Version 1.0
-	Includes source files and a bat file to load test onto Papilio One 500K.
+7/30/2014 Version 1.0
+	First release with V-Score.
