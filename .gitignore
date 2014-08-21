@@ -5,6 +5,7 @@
 *.jpg
 *.png
 *.scr
+*.lbr
 
 centroid
 gerbers
