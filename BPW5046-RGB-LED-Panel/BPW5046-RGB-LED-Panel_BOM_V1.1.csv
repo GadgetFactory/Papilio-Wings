@@ -1,0 +1,3 @@
+Qty-1,Part References,Value,Package,Mfg Part Num,Mfg Name,VID,Vendor Part Num,Description,Pkg Code,XREF
+1,SV1,,ML16,PRPC004DAAN-RC,Sullins Connector,DK,S2011EC-04-ND,"CONN HEADER .100"""" DUAL STR 8POS",ML16,REF194
+2,"U$2, U$3",WING8WING8_NOHOLES,WINGSIDE_8BIT_NOHOLES,68001-112HLF,FCI,DK,609-3275-ND,Papilio 8-bit Wing header. 12 Male Pin Headers to be split into 8 pins and 4 pins.,WINGSIDE_8BIT_NOHOLES,REF193
