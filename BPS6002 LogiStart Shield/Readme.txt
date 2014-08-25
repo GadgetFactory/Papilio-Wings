@@ -8,6 +8,9 @@ Special assembly instructions:
 Test Plan Home Page:
 	In Progress
 
+3D Rendering Video:
+https://www.youtube.com/watch?v=OsVe8Iz7Yxw
+	
 CHANGELOG
 8/12/2014 Version 1.0
 	First release with V-Score.
