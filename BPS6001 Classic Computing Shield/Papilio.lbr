@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -190,7 +190,7 @@
 <pad name="RES" x="33.02" y="2.54" drill="1" diameter="1.4224"/>
 <pad name="RX" x="63.5" y="50.8" drill="1" diameter="1.4224"/>
 <pad name="TX" x="60.96" y="50.8" drill="1" diameter="1.4224"/>
-<pad name="VIN" x="100.33" y="73.66" drill="1" diameter="1.4224"/>
+<pad name="VIN" x="45.72" y="-2.54" drill="1" diameter="1.4224"/>
 <text x="41.148" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">GND</text>
 <text x="43.688" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">GND</text>
 <text x="38.608" y="3.9243" size="1.016" layer="25" ratio="15" rot="R90">+5V</text>
