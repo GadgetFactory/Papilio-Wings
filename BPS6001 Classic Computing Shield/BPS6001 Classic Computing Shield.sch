@@ -4228,7 +4228,7 @@ push-push type</description>
 <text x="-3.81" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-6.985" y1="-3.175" x2="5.08" y2="3.175" layer="39"/>
 <hole x="-5.588" y="0" drill="1.27"/>
-<polygon width="0.127" layer="46">
+<polygon width="0.127" layer="51">
 <vertex x="3.81" y="1.4478"/>
 <vertex x="4.445" y="1.4478" curve="90"/>
 <vertex x="5.08" y="2.0828"/>
@@ -4240,10 +4240,10 @@ push-push type</description>
 <vertex x="4.445" y="-1.4478"/>
 <vertex x="3.81" y="-1.4478"/>
 </polygon>
-<wire x1="6.985" y1="0" x2="10.414" y2="0" width="0.127" layer="46"/>
-<wire x1="6.985" y1="0" x2="7.874" y2="0.635" width="0.127" layer="46"/>
-<wire x1="6.985" y1="0" x2="7.874" y2="-0.635" width="0.127" layer="46"/>
-<text x="10.795" y="-1.27" size="0.889" layer="46" ratio="11">The place have a bulge ,
+<wire x1="6.985" y1="0" x2="10.414" y2="0" width="0.127" layer="51"/>
+<wire x1="6.985" y1="0" x2="7.874" y2="0.635" width="0.127" layer="51"/>
+<wire x1="6.985" y1="0" x2="7.874" y2="-0.635" width="0.127" layer="51"/>
+<text x="10.795" y="-1.27" size="0.889" layer="51" ratio="11">The place have a bulge ,
 please place it out of board.</text>
 </package>
 </packages>

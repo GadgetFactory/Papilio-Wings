@@ -8,27 +8,27 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -128,7 +128,7 @@
 <wire x1="24.13" y1="55.88" x2="119.38" y2="55.88" width="0.254" layer="20"/>
 <wire x1="119.38" y1="55.88" x2="119.38" y2="0" width="0.254" layer="20"/>
 <text x="51.562" y="35.941" size="1.778" layer="21" ratio="12" rot="R180">Papilio Platform</text>
-<text x="51.562" y="33.274" size="1.27" layer="21" ratio="10" rot="R180">Computing Shield V1.1</text>
+<text x="51.562" y="33.274" size="1.27" layer="21" ratio="10" rot="R180">Computing Shield V1.01</text>
 <text x="94.742" y="19.05" size="1.6764" layer="21" ratio="15" rot="R270">PS/2 A</text>
 <text x="15.621" y="2.54" size="1.6764" layer="21" ratio="15" rot="R180">Joystick 2</text>
 <text x="104.14" y="3.81" size="1.6764" layer="21" ratio="15" rot="R90">JOYSTICK 1</text>
@@ -159,6 +159,7 @@
 <text x="17.526" y="55.499" size="1.6764" layer="21" ratio="15" rot="R270">PS/2 B</text>
 <text x="0.254" y="55.245" size="1.6764" layer="21" ratio="15" rot="R270">AUDIO 2</text>
 <text x="67.31" y="46.99" size="0.8128" layer="25" rot="R180">6/17/2014</text>
+<text x="41.91" y="1.27" size="1.27" layer="21" font="vector" ratio="10">Get Started at CompShield.GadgetFactory.Net</text>
 </plain>
 <libraries>
 <library name="GadgetFactory_Pub">
@@ -669,7 +670,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-3.81" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-6.985" y1="-3.175" x2="5.08" y2="3.175" layer="39"/>
 <hole x="-5.588" y="0" drill="1.27"/>
-<polygon width="0.127" layer="46">
+<polygon width="0.127" layer="51">
 <vertex x="3.81" y="1.4478"/>
 <vertex x="4.445" y="1.4478" curve="90"/>
 <vertex x="5.08" y="2.0828"/>
@@ -681,10 +682,10 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="4.445" y="-1.4478"/>
 <vertex x="3.81" y="-1.4478"/>
 </polygon>
-<wire x1="6.985" y1="0" x2="10.414" y2="0" width="0.127" layer="46"/>
-<wire x1="6.985" y1="0" x2="7.874" y2="0.635" width="0.127" layer="46"/>
-<wire x1="6.985" y1="0" x2="7.874" y2="-0.635" width="0.127" layer="46"/>
-<text x="10.795" y="-1.27" size="0.889" layer="46" ratio="11">The place have a bulge ,
+<wire x1="6.985" y1="0" x2="10.414" y2="0" width="0.127" layer="51"/>
+<wire x1="6.985" y1="0" x2="7.874" y2="0.635" width="0.127" layer="51"/>
+<wire x1="6.985" y1="0" x2="7.874" y2="-0.635" width="0.127" layer="51"/>
+<text x="10.795" y="-1.27" size="0.889" layer="51" ratio="11">The place have a bulge ,
 please place it out of board.</text>
 </package>
 </packages>
@@ -2780,6 +2781,18 @@ design rules under a new name.</description>
 <approved hash="5,16,5ae64ddead5f52cb"/>
 <approved hash="5,16,4308430b17511752"/>
 <approved hash="5,16,ead2d49d2016e228"/>
+<approved hash="5,1,c4dec743d0ff9768"/>
+<approved hash="5,1,4c8b8036804ede36"/>
+<approved hash="5,1,a93726eb0c73b8b0"/>
+<approved hash="5,1,189f3d935558235e"/>
+<approved hash="5,1,968c968bc22ec229"/>
+<approved hash="5,1,d1660ae0874e66cc"/>
+<approved hash="5,16,c4dec743d0ff9768"/>
+<approved hash="5,16,4c8b8036804ede36"/>
+<approved hash="5,16,a93726eb0c73b8b0"/>
+<approved hash="5,16,189f3d935558235e"/>
+<approved hash="5,16,968c968bc22ec229"/>
+<approved hash="5,16,d1660ae0874e66cc"/>
 </errors>
 </board>
 </drawing>

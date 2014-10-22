@@ -1,4 +1,4 @@
-BPS6001 Classic Computing Shield Manufacturing Package - Current Version 1.0
+BPS6001 Computing Shield Manufacturing Package - Current Version 1.01
 
 Special assembly instructions:
 	-Use RED for the PCB color.
@@ -8,14 +8,14 @@ Special assembly instructions:
 Partial DigiKey BOM Link (Seeed and Generic Parts not included):
 	https://www.digikey.com/classic/RegisteredUser/BOMBillOfMaterials.aspx?path=1&exist=1&id=1859538
 
-
 Test Plan Home Page:
-	In Progress
+	http://www.gadgetfactory.net/opmanuals/index.php?n=Main.ComputingShield
 
 CHANGELOG
-10/20/2014	Version 1.1
+10/20/2014	Version 1.01
 	-Fixed the PS/2 footprints
 	-Rotated the whole design 180 degrees to put the connectors at the top of the board and easier to work with.
+	-Added Get Started URL
 
 7/30/2014 Version 1.0
 	First release with V-Score.
