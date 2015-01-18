@@ -12,6 +12,9 @@ Test Plan Home Page:
 	http://www.gadgetfactory.net/opmanuals/index.php?n=Main.ComputingShield
 
 CHANGELOG
+11/18/2014	Version 1.02
+	-Fixed the location of audio jack's.
+
 10/20/2014	Version 1.01
 	-Fixed the PS/2 footprints
 	-Rotated the whole design 180 degrees to put the connectors at the top of the board and easier to work with.

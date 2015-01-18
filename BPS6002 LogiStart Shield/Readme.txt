@@ -1,4 +1,4 @@
-BPS6002 LogicStart Shield Manufacturing Package - Current Version 1.01
+BPS6002 LogicStart Shield Manufacturing Package - Current Version 1.02
 
 Special assembly instructions:
 	-Use RED for the PCB color.
@@ -12,6 +12,9 @@ Test Plan Home Page:
 https://www.youtube.com/watch?v=OsVe8Iz7Yxw
 	
 CHANGELOG
+11/18/2014	Version 1.02
+	-Moved the Audio jack out for easier manufacturing.
+
 10/22/2014	Version 1.01
 	-R48-R52 were not in the BOM for 1.0, added for 1.01
 	-The Seven Segment Display must be a Common Anode type display - the prototypes used Common Cathode which do not work.
