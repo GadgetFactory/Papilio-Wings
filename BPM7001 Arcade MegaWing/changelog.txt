@@ -1,14 +1,7 @@
-7/17/2013 Version 2.2
-	-Moved DB9 Joystick connectes apart
-	-Moved audio jack outwards so it lays flat.
-
-7/1/2012 Version 2.1
-	-Added Atari style joystick ports back, but with V-Score so they can be snapped off and replaced with other joystick types.
-
-4/3/2012 Version 2.0
-	-Added SD Card
-	-Removed Atari style joystick ports
-	-Added micro joystick
+7/17/2013 Version 1.3
+	-Fix VGA footprint to include solder pad for main anchor points.
+	-Fix PS/2 footpring to include solder pad for anchor point.
+	-Move audio jack out so it lays flat.
 
 12/19/2012 Version 1.2
 	-Fix the low pass audio filter
